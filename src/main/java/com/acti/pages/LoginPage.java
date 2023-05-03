@@ -13,7 +13,9 @@ import com.acti.base.DriverScript;
  * Date Reviewed : 04-27-2023
  */
 
-public class LoginPage extends DriverScript{
+public class LoginPage extends DriverScript
+{
+	
 //**************************Page Locators***********************//
 	//https://demo.actitime.com/login.do
 	@FindBy(id="username") WebElement usernameTextbox;
