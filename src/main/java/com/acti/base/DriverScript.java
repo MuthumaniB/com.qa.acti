@@ -5,10 +5,12 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 /*
  * Name : DriverScript
@@ -48,11 +50,14 @@ public class DriverScript {
 	public void initApplication()
 	{
 		String browser = prop.getProperty("browser");
+		
 		if(browser.equalsIgnoreCase("chrome"))
 		{
 			System.out.println(browser + ": in use");
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
+			
+			   
 		}
 		else if(browser.equalsIgnoreCase("firefox"))
 		{
@@ -73,14 +78,17 @@ public class DriverScript {
 		{
 			System.out.println(browser+ "is not supported browser please check config.properties file");
 		}
+		
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
+		System.out.println(driver.manage().window().getSize());
+	    driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		launchURL();
 		
 	}
+	
 	/*
 	 * load the url from the properties file and pass this method to initapplication above
 	 */
@@ -100,3 +108,4 @@ public class DriverScript {
 	
 
 }
+
