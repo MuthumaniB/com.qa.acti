@@ -12,6 +12,7 @@ public class BaseTest extends DriverScript {
 	LoginPage lp;
 	EnterPage ep;
 	TaskPage tp;
+	
 	@BeforeMethod
 	public void pretest()
 	{
