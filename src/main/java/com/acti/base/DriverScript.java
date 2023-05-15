@@ -90,7 +90,7 @@ public class DriverScript {
 	}
 	
 	/*
-	 * load the url from the properties file and pass this method to initapplication above
+	 * load the url from the properties file and pass this method to init application above
 	 */
 	public void launchURL()
 	{
