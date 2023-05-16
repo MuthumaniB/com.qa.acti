@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class LoginPageTests extends BaseTest{
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void testLoginPageTitle()
 	{
 		
@@ -16,7 +16,7 @@ public class LoginPageTests extends BaseTest{
 		Assert.assertEquals(actual, expected);
 	}	
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void testActiImgDisplayed()
 	{
 		boolean flag = lp.verifyActiimg();
@@ -24,7 +24,7 @@ public class LoginPageTests extends BaseTest{
 		
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void testForgotPasswordLink()
 	{
 		
@@ -45,7 +45,7 @@ public class LoginPageTests extends BaseTest{
         ep.ClickLogout();
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void testLoginInvalidCredentials() throws InterruptedException
 	{
 	

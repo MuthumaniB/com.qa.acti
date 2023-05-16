@@ -13,7 +13,7 @@ public class BaseTest extends DriverScript {
 	EnterPage ep;
 	TaskPage tp;
 	
-	@BeforeMethod
+	@BeforeMethod(enabled=true)
 	public void pretest()
 	{
 		initApplication();
@@ -21,12 +21,12 @@ public class BaseTest extends DriverScript {
 		 ep=new EnterPage();
 		 tp=new TaskPage();
 	}
-	@AfterMethod
+	@AfterMethod(enabled=true)
 	public void teardown()
 	{
 		quitDriver();
 		
-	}
+			}
 
 }
 

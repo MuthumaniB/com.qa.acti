@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-09T14:11:44 CDT" name="Default suite" finished-at="2023-05-09T14:12:20 CDT" duration-ms="35597">
+  <suite started-at="2023-05-16T12:32:35 CDT" name="Default suite" finished-at="2023-05-16T12:33:04 CDT" duration-ms="29567">
     <groups>
     </groups>
-    <test started-at="2023-05-09T14:11:44 CDT" name="Default test" finished-at="2023-05-09T14:12:20 CDT" duration-ms="35597">
+    <test started-at="2023-05-16T12:32:35 CDT" name="Default test" finished-at="2023-05-16T12:33:04 CDT" duration-ms="29567">
       <class name="com.acti.testcase.TaskPageTests">
-        <test-method is-config="true" signature="pretest()[pri:0, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-09T14:11:44 CDT" name="pretest" finished-at="2023-05-09T14:11:48 CDT" duration-ms="4381" status="PASS">
+        <test-method is-config="true" signature="pretest()[pri:0, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-16T12:32:35 CDT" name="pretest" finished-at="2023-05-16T12:32:40 CDT" duration-ms="4864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pretest -->
-        <test-method signature="testCreateCustomer()[pri:1, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-09T14:11:48 CDT" name="testCreateCustomer" finished-at="2023-05-09T14:11:56 CDT" duration-ms="7420" status="PASS">
+        <test-method signature="testCreateCustomer()[pri:1, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-16T12:32:40 CDT" name="testCreateCustomer" finished-at="2023-05-16T12:32:44 CDT" duration-ms="4669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCustomer -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-09T14:11:56 CDT" name="teardown" finished-at="2023-05-09T14:11:56 CDT" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-16T12:32:44 CDT" name="teardown" finished-at="2023-05-16T12:32:44 CDT" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="pretest()[pri:0, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-09T14:11:56 CDT" name="pretest" finished-at="2023-05-09T14:12:00 CDT" duration-ms="3525" status="PASS">
+        <test-method is-config="true" signature="pretest()[pri:0, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-16T12:32:44 CDT" name="pretest" finished-at="2023-05-16T12:32:47 CDT" duration-ms="2573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pretest -->
-        <test-method signature="testDeleteCustomer()[pri:2, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-09T14:12:00 CDT" name="testDeleteCustomer" finished-at="2023-05-09T14:12:19 CDT" duration-ms="19659" status="PASS">
+        <test-method signature="testDeleteCustomer()[pri:2, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-16T12:32:47 CDT" name="testDeleteCustomer" finished-at="2023-05-16T12:33:04 CDT" duration-ms="16920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteCustomer -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-09T14:12:19 CDT" name="teardown" finished-at="2023-05-09T14:12:20 CDT" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.acti.testcase.TaskPageTests@593aaf41]" started-at="2023-05-16T12:33:04 CDT" name="teardown" finished-at="2023-05-16T12:33:04 CDT" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
